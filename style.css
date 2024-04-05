@@ -1,0 +1,16 @@
+button{
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(45deg, rgb(127, 197, 181) 38%, rgb(19, 168, 172) 57%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 100px;
+    transition: all ease-in 0.3s;
+}
+button:hover{
+    background: linear-gradient(315deg, rgb(78, 133, 65), rgb(83, 255, 0) 63%);
+    transform: scaleX(-1);
+}
